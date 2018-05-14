@@ -16,7 +16,7 @@ Via Composer
 ## Instalation
 
 ``` bash
-composer require leobeal/laravelquiz
+composer require leobeal/laravel-quiz
 ```
 
 In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in config/app.php file:
@@ -62,14 +62,14 @@ Add the Quizzable Trait to your model
 
 This package is open-sourced software licensed under the MIT license.
 
-[ico-version]: https://img.shields.io/packagist/v/leobeal/laravelquiz.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/leobeal/laravelquiz.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/leobeal/laravelquiz/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/leobeal/laravel-quiz.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/leobeal/llaravel-quiz.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/leobeal/laravel-quiz/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/133411869/shield
 
-[link-packagist]: https://packagist.org/packages/leobeal/laravelquiz
-[link-downloads]: https://packagist.org/packages/leobeal/laravelquiz
-[link-travis]: https://travis-ci.org/leobeal/laravelquiz
+[link-packagist]: https://packagist.org/packages/leobeal/laravel-quiz
+[link-downloads]: https://packagist.org/packages/leobeal/laravel-quiz
+[link-travis]: https://travis-ci.org/leobeal/laravel-quiz
 [link-styleci]: https://styleci.io/repos/133411869
 [link-author]: https://github.com/leobeal
 [link-contributors]: ../../contributors]
