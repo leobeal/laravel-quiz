@@ -11,13 +11,52 @@ LaravelQuiz is a simple Questions package.
 
 Via Composer
 
+
+
+## Instalation
+
 ``` bash
-$ composer require leobeal/laravelquiz
+composer require leobeal/laravelquiz
 ```
 
-## Usage
+In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in config/app.php file:
 
-Add the Quizzable Trait to your models
+```php
+'providers' => [
+    // ...
+    Leobeal\LaravelQuiz\QuizServiceProvider::class,
+];
+```
+
+You can publish the config with:
+
+```bash
+php artisan vendor:publish --provider="Leobeal\LaravelQuiz\QuizServiceProvider"
+```
+
+Change `config/quiz.php` according to your needs.
+
+* The migrations won't be published and will be executed from the vendor folder.
+
+After changing the config, run the migrations
+
+```bash
+php artisan migrate
+```
+
+Add the Quizzable Trait to your model
+
+>```php
+>use Illuminate\Database\Eloquent\Model;
+>use Leobeal\LaravelQuiz\Model\Quizzable;
+>
+>class Course extends Model
+>{
+>    use Quizzable;
+>
+>    // ...
+>}
+>```
 
 ## License
 
