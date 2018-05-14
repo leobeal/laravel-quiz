@@ -13,11 +13,11 @@ class QuizServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../migrations');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config/quiz.php' => config_path('quiz.php'),
+                __DIR__.'/../config/quiz.php' => config_path('quiz.php'),
             ], 'laravelquiz.config');
         }
     }
@@ -29,7 +29,7 @@ class QuizServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/quiz.php', 'quiz');
+        $this->mergeConfigFrom(__DIR__.'/../config/quiz.php', 'quiz');
 
         // Register the service the package provides.
         $this->app->singleton('quiz', function ($app) {
