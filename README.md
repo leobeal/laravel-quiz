@@ -65,11 +65,11 @@ This package is open-sourced software licensed under the MIT license.
 [ico-version]: https://img.shields.io/packagist/v/leobeal/laravelquiz.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/leobeal/laravelquiz.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/leobeal/laravelquiz/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]: https://styleci.io/repos/133411869/shield
 
 [link-packagist]: https://packagist.org/packages/leobeal/laravelquiz
 [link-downloads]: https://packagist.org/packages/leobeal/laravelquiz
 [link-travis]: https://travis-ci.org/leobeal/laravelquiz
-[link-styleci]: https://styleci.io/repos/12345678
+[link-styleci]: https://styleci.io/repos/133411869
 [link-author]: https://github.com/leobeal
 [link-contributors]: ../../contributors]
