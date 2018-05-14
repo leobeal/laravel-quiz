@@ -4,7 +4,7 @@ namespace Leobeal\LaravelQuiz\Traits;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-Trait Quizzable
+trait Quizzable
 {
     public function quizzes(): HasMany
     {
