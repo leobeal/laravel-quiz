@@ -1,0 +1,46 @@
+{
+  "name": "leobeal/laravel-quiz",
+  "description": "A simple Laravel Quiz package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leo Beal",
+      "email": "leonardobeal@gmail.com",
+      "homepage": "https://leobeal.com"
+    }
+  ],
+  "homepage": "https://github.com/leobeal/laravelquiz",
+  "keywords": [
+    "Laravel",
+    "LaravelQuiz",
+    "Quiz",
+    "Questions and answers"
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leobeal\\LaravelQuiz\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Leobeal\\LaravelQuiz\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Leobeal\\LaravelQuiz\\QuizServiceProvider"
+      ],
+      "aliases": {
+        "LaravelQuiz": "Leobeal\\LaravelQuiz\\Facades\\LaravelQuiz"
+      }
+    }
+  }
+}
