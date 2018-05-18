@@ -11,7 +11,7 @@ class Quiz extends Model
 
     public function quizzable()
     {
-        return $this->belongsTo(config('quiz.quizzable_model'));
+        return $this->belongsTo(config('quiz.quizzable_model'), config('quiz.quizzable_fk'));
     }
 
     public function questions(): ?HasMany
