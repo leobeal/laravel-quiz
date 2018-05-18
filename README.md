@@ -19,15 +19,6 @@ Via Composer
 composer require leobeal/laravel-quiz
 ```
 
-In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in config/app.php file:
-
-```php
-'providers' => [
-    // ...
-    Leobeal\LaravelQuiz\QuizServiceProvider::class,
-];
-```
-
 You can publish the config with:
 
 ```bash
@@ -63,7 +54,7 @@ Add the Quizzable Trait to your model
 This package is open-sourced software licensed under the MIT license.
 
 [ico-version]: https://img.shields.io/packagist/v/leobeal/laravel-quiz.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/leobeal/llaravel-quiz.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/leobeal/laravel-quiz.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/leobeal/laravel-quiz/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/133411869/shield
 
