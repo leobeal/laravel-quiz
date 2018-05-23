@@ -36,7 +36,7 @@ class CreateQuizzesTable extends Migration
 
         Schema::create('question_options', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('alternative');
+            $table->string('option');
             $table->boolean('correct');
             $table->integer('question_id')->unsigned();
             $table->timestamps();
